@@ -4,7 +4,7 @@ import com.example.leonardo.avanzado01.classes.Note;
 import com.orm.SugarRecord;
 
 import java.util.List;
-/
+
 public class NoteRepository {
     public static List<Note> list(){
         List<Note> notes = SugarRecord.listAll(Note.class);
