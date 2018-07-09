@@ -7,12 +7,12 @@
         android:icon="@drawable/ic_home" />
 
     <item
-        android:id="@+id/menu_camera"
+        android:id="@+id/menu_favorites"
         android:title="Favorites"
         android:icon="@android:drawable/btn_star" />
 
     <item
-        android:id="@+id/menu_search"
+        android:id="@+id/menu_archived"
         android:title="Archived"
         android:icon="@android:drawable/ic_menu_delete"
         />

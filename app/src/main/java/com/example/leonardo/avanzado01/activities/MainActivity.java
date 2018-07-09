@@ -66,7 +66,12 @@ public class MainActivity extends AppCompatActivity {
             if (lista.size() > 0 ){
                 Long id = lista.get(0).getId();
                 String fullName = lista.get(0).getFullname();
-                String firstName = fullName.substring(0, fullName.indexOf(' '));
+                String firstName = "";
+                if (fullName.indexOf(' ') != -1){
+                    firstName = fullName.substring(0, fullName.indexOf(' '));
+                } else {
+                    firstName = fullName;
+                }
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 boolean success = editor
                         .putString("firstName", firstName)
