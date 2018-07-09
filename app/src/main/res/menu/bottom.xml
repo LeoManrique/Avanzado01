@@ -4,17 +4,23 @@
     <item
         android:id="@+id/menu_home"
         android:title="Home"
-        android:icon="@android:drawable/ic_menu_gallery" />
+        android:icon="@drawable/ic_home" />
 
     <item
         android:id="@+id/menu_camera"
-        android:title="Camera"
-        android:icon="@android:drawable/ic_menu_camera" />
+        android:title="Favorites"
+        android:icon="@android:drawable/btn_star" />
 
     <item
         android:id="@+id/menu_search"
-        android:title="Search"
-        android:icon="@android:drawable/ic_menu_share"
+        android:title="Archived"
+        android:icon="@android:drawable/ic_menu_delete"
+        />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"
+        android:icon="@android:drawable/ic_lock_power_off"
         />
 
 
